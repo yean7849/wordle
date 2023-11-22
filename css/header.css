@@ -18,4 +18,29 @@ header {
   border: 2px solid black;
   padding: 10px;
   border-radius: 30px;
+  font-weight: bold;
+}
+
+.wordle-menu__menu img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.wordle-menu__logo img {
+  width: 60px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.settings-icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.settings-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

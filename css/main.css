@@ -21,3 +21,28 @@ main {
   width: 60px;
   height: 60px;
 }
+
+.gameoverMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*요소의 값만큼 뒤로 밑으로해서 가운데 정렬*/
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: shape;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shape {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: yellow;
+  }
+}

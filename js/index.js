@@ -1,4 +1,4 @@
-const 정답 = "APPLE";
+const 정답 = "IMCYS";
 
 let attempts = 0;
 let index = 0;
@@ -7,9 +7,8 @@ let 타이머 = 0;
 function appStart() {
   const displayGameover = () => {
     const div = document.createElement("div");
+    div.classList.add("gameoverMessage");
     div.innerText = "게임이 종료됐습니다.";
-    div.style =
-      "display: flex; justify-content: center; align-items: center; position: absolute; top: 40vh; left: 40vw; background-color: white; width:200px; height: 100px;";
     document.body.appendChild(div);
   };
 
